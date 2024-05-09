@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
 
 # testing
 /coverage
@@ -12,6 +11,7 @@
 # next.js
 /.next/
 /out/
+/next.config.js
 
 # production
 /build
@@ -26,11 +26,17 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+/pages/api/scraper/fireship-scraper-link-preview-backend.js
+/pages/api/scraper/fireship-scraper-react-ig-client.js
+
+# Google Ads
+/ads.txt
+/public/ads.txt
