@@ -5,8 +5,6 @@
   <p><a href="https://realyzer.app/" target="_blank" rel="noopener noreferrer">Live</a> | <a href="https://github.com/stanjdev/realyzer" target="_blank" rel="noopener noreferrer">GitHub</a></p>
 </div>
 
-
-
 <div className="container container__grey">
 <section className="projectInfo">
   <div className=" projectInfo__block">
